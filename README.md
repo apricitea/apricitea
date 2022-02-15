@@ -1,5 +1,7 @@
 ## Hello <a href="https://www.gautamkrishnar.com/"><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></a> I'm Alvin. An Adventurer who freely wanders the street! Half Coder, Half Poet! 
 
+<img src="https://github.com/apricitea/apricitea/blob/main/venti-gif/me-venti.gif" alt="Venti GIF">
+
 My Purpose in Life:
 - Exploring this gigantic universe, turning the unknown into the known
 - Making a better future through philosophical investigation and data-driven decision making process
