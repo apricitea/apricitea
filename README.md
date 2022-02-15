@@ -1,6 +1,6 @@
 ## Hello <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"></a> I'm Alvin. An Adventurer who freely  wanders the street. Half Coder, Half Poet! 
 
-
+<p align="center">
   <img src="https://github.com/apricitea/apricitea/blob/main/venti-gif/me-venti.gif" alt="Venti GIF">
 </p>
   
