@@ -9,7 +9,9 @@ My Purpose in Life:
 - Making a better future through philosophical investigation and data-driven decision
 - Enjoying every little things that Life throws at me ^^
 
-![Apricitea's github stats](https://bad-apple-github-readme.vercel.app/api?show_bg=1&username=apricitea)
+<p align="center">
+  ![Apricitea's github stats](https://bad-apple-github-readme.vercel.app/api?show_bg=1&username=apricitea)
+</p>
 
 More about me:
 - Statistics and Data Science Undergraduate at IPB University
@@ -18,15 +20,15 @@ More about me:
 
 🔨 **Tools I currently use**
 <p align="left">
-  <img src="https://img.icons8.com/external-soft-fill-juicy-fish/60/000000/external-sql-coding-and-development-soft-fill-soft-fill-juicy-fish.png"/>
-  <img src="https://img.icons8.com/color/48/000000/python--v1.png"/>
-  <img src="https://img.icons8.com/external-becris-flat-becris/64/000000/external-r-data-science-becris-flat-becris.png"/>
-  <img src="https://img.icons8.com/color/48/000000/microsoft-excel-2019--v1.png"/>
+  <img src="https://img.icons8.com/external-soft-fill-juicy-fish/60/000000/external-sql-coding-and-development-soft-fill-soft-fill-juicy-fish.png" width="128" height="128"/>
+  <img src="https://img.icons8.com/color/48/000000/python--v1.png" width="128" height="128"/>
+  <img src="https://img.icons8.com/external-becris-flat-becris/64/000000/external-r-data-science-becris-flat-becris.png" width="128" height="128"/>
+  <img src="https://img.icons8.com/color/48/000000/microsoft-excel-2019--v1.png" width="128" height="128"/>
 </p>
 
 
 
-🔗 &nbsp;**Connect with me**
+🔗 **Connect with me**
 <p align="left">
   <a href="https://twitter.com/apeirodonut" target="blank"><img align="center" src=src="https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-twitter-social-media-justicon-lineal-color-justicon.png"/></a>
   <a href="https://linkedin.com/in/alvincnataputra" target="blank"><img align="center" src="https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-linkedin-social-media-justicon-lineal-color-justicon.png"/></a>
