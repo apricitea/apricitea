@@ -9,6 +9,7 @@ My Purpose in Life:
 
 🔗 &nbsp;**Connect with me**
 <p align="left">
-<a href="https://twitter.com/apeirodonut" target="blank"><img align="center" src="https://github.com/apricitea/apricitea/blob/main/icons/icons8-instagram-64.png" alt="apricitea-twitter" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/alvincnataputra" target="blank"><img align="center" src="https://github.com/apricitea/apricitea/blob/main/icons/icons8-linkedin-64.png" alt="apricitea-linkedin" height="30" width="40" /></a>
-<a href="https://instagram.com/apricitealvin" target="blank"><img align="center" src="https://github.com/apricitea/apricitea/blob/main/icons/icons8-instagram-64.png" alt="apricitea-instagram" height="30" width="40" /></a>
+<a href="https://twitter.com/apeirodonut" target="blank"><img align="center" src="https://github.com/apricitea/apricitea/blob/main/icons/icons8-instagram-64.png" alt="apricitea-twitter"/></a>
+<a href="https://linkedin.com/in/alvincnataputra" target="blank"><img align="center" src="https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-linkedin-social-media-justicon-lineal-color-justicon.png"/></a>
+<a href="https://instagram.com/apricitealvin" target="blank"><img align="center" src="https://github.com/apricitea/apricitea/blob/main/icons/icons8-instagram-64.png" alt="apricitea-instagram"/></a>
+<a href="https://instagram.com/apricitealvin" target="blank"><img align="center" src="https://img.icons8.com/plasticine/100/000000/discord-logo.png" /></a>
