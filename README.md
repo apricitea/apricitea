@@ -11,7 +11,6 @@ My Purpose in Life:
 
 ![Apricitea's github stats](https://bad-apple-github-readme.vercel.app/api?show_bg=1&username=apricitea)
 
-
 More about me:
 - Statistics and Data Science Undergraduate at IPB University
 - More than 2 years of experience as an Analyst in AIESEC, largest youth-led leadership organization
@@ -19,13 +18,11 @@ More about me:
 
 🔨 **Tools I currently use**
 <p align="left">
-  <img src="https://img.icons8.com/external-soft-fill-juicy-fish/60/000000/external-sql-coding-and-development-soft-fill-soft-fill-juicy-fish.png" width="32" height="32"/>
-  <img src="https://img.icons8.com/color/48/000000/python--v1.png" width="32" height="32"/>
-  <img src="https://img.icons8.com/external-becris-flat-becris/64/000000/external-r-data-science-becris-flat-becris.png" width="32" height="32"/>
-  <img src="https://img.icons8.com/color/48/000000/microsoft-excel-2019--v1.png" width="32" height="32"/>
+  <img src="https://img.icons8.com/external-soft-fill-juicy-fish/60/000000/external-sql-coding-and-development-soft-fill-soft-fill-juicy-fish.png" width="64" height="64"/>
+  <img src="https://img.icons8.com/color/48/000000/python--v1.png" width="64" height="64"/>
+  <img src="https://img.icons8.com/external-becris-flat-becris/64/000000/external-r-data-science-becris-flat-becris.png" width="64" height="64"/>
+  <img src="https://img.icons8.com/color/48/000000/microsoft-excel-2019--v1.png" width="64" height="64"/>
 </p>
-
-
 
 🔗 **Connect with me**
 <p align="left">
