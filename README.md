@@ -20,6 +20,10 @@ More about me:
 - More than 2 years of experience as an Analyst in AIESEC, largest youth-led leadership organization
 - Been taking several courses in Data Analysis, Machine Learning, and Philosophy
 
+<p align="center">
+  <img src="https://github.com/apricitea/apricitea/blob/main/venti-gif/venti-flying.gif" alt="Venti GIF">
+</p>
+
 🔨 **Tools I currently use**
 <p align="left">
   <img src="https://img.icons8.com/external-soft-fill-juicy-fish/60/000000/external-sql-coding-and-development-soft-fill-soft-fill-juicy-fish.png" width="64" height="64"/>
