@@ -21,6 +21,7 @@ More about me:
 - Been taking several courses in Data Analysis, Machine Learning, and Philosophy
 
 <p align="center">
+  What does freedom really mean when demanded of you by a god?
   <img src="https://github.com/apricitea/apricitea/blob/main/venti-gif/venti-flying.gif" alt="Venti GIF">
 </p>
 
@@ -39,5 +40,4 @@ More about me:
   <a href="https://instagram.com/apricitealvin" target="blank"><img align="center" src="https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-instagram-social-media-justicon-lineal-color-justicon.png"/></a>
   <a href="https://discordapp.com/users/Lucius%20Artorius%20Castus#7028/" target="blank"><img align="center" src="https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-discord-social-media-justicon-lineal-color-justicon.png"/></a>
   <a href="https://line.me/ti/p/~apeirodox" target="blank"><img align="center" src="https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-line-social-media-justicon-lineal-color-justicon.png"/></a>
-  <a href="https://www.youtube.com/channel/UC-AL0Y3zA6ymmerQLehaApQ" target="blank"><img align="center" src="https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-youtube-social-media-justicon-lineal-color-justicon.png"/></a>
 </p>
