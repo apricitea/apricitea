@@ -30,11 +30,13 @@ More about me:
 
 🔗 **Connect with me**
 <p align="left">
-  <a href="https://twitter.com/apeirodonut" target="blank"><img align="center" src=src="https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-twitter-social-media-justicon-lineal-color-justicon.png"/></a>
-  <a href="https://linkedin.com/in/alvincnataputra" target="blank"><img align="center" src="https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-linkedin-social-media-justicon-lineal-color-justicon.png"/></a>
-  <a href="https://instagram.com/apricitealvin" target="blank"><img align="center" src="https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-instagram-social-media-justicon-lineal-color-justicon.png"/></a>
-  <a href="https://discordapp.com/users/Lucius%20Artorius%20Castus#7028/" target="blank"><img align="center" src="https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-discord-social-media-justicon-lineal-color-justicon.png"/></a>
-  <a href="https://line.me/ti/p/~apeirodox" target="blank"><img align="center" src="https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-line-social-media-justicon-lineal-color-justicon.png"/></a>
+  <a href="https://twitter.com/apeirodonut" target="blank"><img align="center" src=src="https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-twitter-social-media-justicon-lineal-color-justicon.png" width="64" height="64"/></a>
+  <a href="https://linkedin.com/in/alvincnataputra" target="blank"><img align="center" src="https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-linkedin-social-media-justicon-lineal-color-justicon.png" width="64" height="64"/></a>
+  <a href="https://instagram.com/apricitealvin" target="blank"><img align="center" src="https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-instagram-social-media-justicon-lineal-color-justicon.png" width="64" height="64"/></a>
+  <a href="https://discordapp.com/users/Lucius%20Artorius%20Castus#7028/" target="blank"><img align="center" src="https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-discord-social-media-justicon-lineal-color-justicon.png" width="64" height="64"/></a>
+  <a href="https://line.me/ti/p/~apeirodox" target="blank"><img align="center" src="https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-line-social-media-justicon-lineal-color-justicon.png" width="64" height="64"/></a>
+  <a href="https://www.kaggle.com/apricitea" target="blank"><img align="center" src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/24/000000/external-kaggle-an-online-community-of-data-scientists-and-machine-learners-owned-by-google-logo-shadow-tal-revivo.png" width="64" height="64"/></a>
+  <a href="https://medium.com/@apricitea" target="blank"><img align="center" src="https://img.icons8.com/ios-filled/50/000000/medium-logo.png" width="64" height="64"/></a>
 </p>
 
 <p style="font-size:200%;" align="center">
