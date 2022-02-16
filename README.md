@@ -37,7 +37,7 @@ More about me:
   <a href="https://line.me/ti/p/~apeirodox" target="blank"><img align="center" src="https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-line-social-media-justicon-lineal-color-justicon.png"/></a>
 </p>
 
-<p align="center">
-  ## What does freedom really mean when demanded of you by a god?<br>
+<p style="font-size:200%;" align="center">
+  What does freedom really mean when demanded of you by a god?<br>
   <img src="https://github.com/apricitea/apricitea/blob/main/venti-gif/venti-flying.gif" alt="Venti GIF">
 </p>
