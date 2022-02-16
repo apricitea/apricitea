@@ -21,7 +21,7 @@ More about me:
 - Been taking several courses in Data Analysis, Machine Learning, and Philosophy
 
 <p align="center">
-  What does freedom really mean when demanded of you by a god?
+  What does freedom really mean when demanded of you by a god?<br>
   <img src="https://github.com/apricitea/apricitea/blob/main/venti-gif/venti-flying.gif" alt="Venti GIF">
 </p>
 
