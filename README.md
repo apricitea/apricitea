@@ -38,6 +38,7 @@ More about me:
 </p>
 
 Other Data Science Related Accounts:
+- [Medium](https://medium.com/@apricitea)
 - [Kaggle](https://www.kaggle.com/apricitea)
 - [HackerRank](https://www.hackerrank.com/apeirodoxalvin)
 - [RPubs](https://rpubs.com/apricitea)
