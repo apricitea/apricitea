@@ -13,7 +13,7 @@ My Purpose in Life:
 - Making a better future through philosophical investigation and data-driven decision
 - Enjoying every little things that Life throws at me ^^
 
-![Apricitea's github stats](https://bad-apple-github-readme.vercel.app/api?show_bg=1&username=apricitea)
+[![Apricitea's github stats](https://bad-apple-github-readme.vercel.app/api?show_bg=1&username=apricitea)](https://github.com/apricitea)
 
 [![Top Languages used](https://github-readme-stats.vercel.app/api/top-langs/?username=apricitea)](https://github.com/apricitea)
 
