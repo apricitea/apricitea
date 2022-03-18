@@ -5,7 +5,7 @@
 </h2>
 
 <p align="center">
-  <img src="https://github.com/apricitea/apricitea/blob/main/venti-gif/me-venti.gif" alt="Venti GIF" width="640" height="640">
+  <img src="https://github.com/apricitea/apricitea/blob/main/venti-gif/me-venti.gif" alt="Venti GIF" width="500" height="500">
 </p>
   
 My Purpose in Life:
