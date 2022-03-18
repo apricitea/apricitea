@@ -16,7 +16,7 @@ My Purpose in Life:
 <a href="https://github.com/apricitea">
   <img height="150em" src="https://github-readme-stats.vercel.app/api?username=apricitea&theme=nightowl&show_icons=true" /><br><br>
 
-  <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=apricitea&theme=nightowl&layout=compact" />
+  <img height="100em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=apricitea&theme=nightowl&layout=compact" />
 </a>
 
 More about me:
