@@ -5,7 +5,7 @@
 </h2>
 
 <p align="center">
-  <img src="https://github.com/apricitea/apricitea/blob/main/venti-gif/me-venti.gif" alt="Venti GIF">
+  <img src="https://github.com/apricitea/apricitea/blob/main/venti-gif/me-venti.gif" alt="Venti GIF" width="128" height="128">
 </p>
   
 My Purpose in Life:
@@ -14,7 +14,8 @@ My Purpose in Life:
 - Enjoying every little things that Life throws at me ^^
 
 ![Apricitea's github stats](https://bad-apple-github-readme.vercel.app/api?show_bg=1&username=apricitea)
-![Top Languages used](https://github-readme-stats.vercel.app/api/top-langs/?username=apricitea)](https://github.com/apricitea)
+
+[![Top Languages used](https://github-readme-stats.vercel.app/api/top-langs/?username=apricitea)](https://github.com/apricitea)
 
 More about me:
 - Statistics and Data Science Undergraduate at IPB University
