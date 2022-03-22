@@ -20,7 +20,7 @@ My Purpose in Life:
 </a>
 
 More about me:
-- Statistics and Data Science Undergraduate at IPB University
+- Statistics and Data Science Undergraduate at Institut Pertanian Bogor (also known as IPB University)
 - More than 2 years of experience as an Analyst in AIESEC, largest youth-led leadership organization
 - Been taking several courses in Data Analysis, Machine Learning, and Philosophy
 
