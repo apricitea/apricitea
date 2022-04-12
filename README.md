@@ -42,8 +42,3 @@ Other Data Science Related Accounts:
 - [Kaggle](https://www.kaggle.com/apricitea)
 - [HackerRank](https://www.hackerrank.com/apeirodoxalvin)
 - [RPubs](https://rpubs.com/apricitea)
-
-<p style="font-size:200%;" align="center">
-  What does freedom really mean when demanded of you by a god?<br>
-  <img src="https://github.com/apricitea/apricitea/blob/main/venti-gif/venti-flying.gif" alt="Venti GIF">
-</p>
