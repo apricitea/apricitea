@@ -1,14 +1,8 @@
 <h2 align="center">
   Hello, I'm Alvin <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"><br>
   An adventurer who freely  wanders the street. <br>
-  Half Coder, Half Poet! 
 </h2>
   
-My Purpose in Life:
-- Exploring this gigantic universe, turning the unknown into the known
-- Making a better future through philosophical investigation and data-driven decision
-- Enjoying every little things that Life throws at me ^^
-
 <a href="https://github.com/apricitea">
   <img height="150em" src="https://github-readme-stats.vercel.app/api?username=apricitea&theme=nightowl&show_icons=true" /><br><br>
 
