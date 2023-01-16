@@ -2,13 +2,7 @@
   Hello, I'm Alvin!
   An adventurer who freely  wanders the street. <br>
 </h2>
-  
-<a href="https://github.com/apricitea">
-  <img height="150em" src="https://github-readme-stats.vercel.app/api?username=apricitea&theme=nightowl&show_icons=true" /><br><br>
-
-  <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=apricitea&theme=nightowl&layout=compact" />
-</a>
-
+ 
 More about me:
 - Final Year Undergrad majoring Statistics and Data Science at Institut Pertanian Bogor (also known as IPB University)
 - More than 2 years of experience as an Analyst in AIESEC, largest youth-led leadership organization
