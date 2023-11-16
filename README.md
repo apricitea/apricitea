@@ -4,9 +4,10 @@
 </h2>
  
 More about me:
-- Final Year Undergrad majoring Statistics and Data Science at Institut Pertanian Bogor (also known as IPB University)
+- Fresh Graduate of Statistics and Data Science at Institut Pertanian Bogor (also known as IPB University)
+- Undergarduate Thesis: Detecting Suicidal Ideation of Tweets using LSTM and Fasttext Word Embedding
 - More than 2 years of experience as an Analyst in AIESEC, largest youth-led leadership organization
-- Been taking several courses in Data Analysis, Machine Learning, and Philosophy
+- Less than 1 years of experience working professionally as a Data Scientist
 
 🔨 **Tools I currently use**
 <p align="left">
