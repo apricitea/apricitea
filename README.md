@@ -53,6 +53,6 @@ Python Libraries
   - Data Collection: Psycopg2, SQL Alchemy, Beautiful Soup, Selenium <br>
   - Data Wrangling: NumPy, Pandas <br>
   - Data Visualization: Matplotlib, Seaborn, Plotly <br>
-  - Machine Learning Development: Scikit Learn, Tensorflow, Keras, PyTorch, SHAP, Imblean, Category Encoder, Joblib, Pickle <br>
+  - Machine Learning Development: Scikit Learn, Tensorflow, Keras, PyTorch, SHAP, Imblearn, Category Encoder, Joblib, Pickle <br>
   - NLP: BERT, FastText, NLTK, Hunspell, Sastrawi <br>
 </p>
