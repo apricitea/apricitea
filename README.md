@@ -49,10 +49,10 @@ Tools
 
 Python Libraries
 <p align="left">
-  - Data Wrangling: NumPy, Pandas
-  - Data Scrapping: Beautiful Soup, Selenium
-  - Plot: Matplotlib, Seaborn, Plotly
-  - Machine Learning Framework: Scikit Learn, Tensorflow, Keras, PyTorch
-  - NLP: BERT, FastText, NLTK, Hunspell, Sastrawi 
-  - ML Model Improvements: Imblean, Category Encoder, SHAP, Joblib, Pickle
+  - Data Wrangling: NumPy, Pandas <br>
+  - Data Scrapping: Beautiful Soup, Selenium <br>
+  - Plot: Matplotlib, Seaborn, Plotly <br>
+  - Machine Learning Framework: Scikit Learn, Tensorflow, Keras, PyTorch <br>
+  - NLP: BERT, FastText, NLTK, Hunspell, Sastrawi <br>
+  - ML Model Improvements: Imblean, Category Encoder, SHAP, Joblib, Pickle <br>
 </p>
