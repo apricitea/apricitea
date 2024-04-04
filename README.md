@@ -15,10 +15,10 @@
 </h3>
 
 <p align="left">
-  <a href="mailto:alvincnataputra@gmail.com" target="blank"><img align="center" src="https://img.icons8.com/color/48/gmail-new.png"/></a>
-  <a href="https://linkedin.com/in/alvincnataputra" target="blank"><img align="center" src="https://img.icons8.com/fluency/48/linkedin.png"/></a>
-  <a href="https://www.instagram.com/apeirodonut" target="blank"><img align="center" src="https://img.icons8.com/fluency/48/instagram-new.png"/></a>
-  <a href="https://apricitea.medium.com/" target="blank"><img align="center" src="https://img.icons8.com/ios-glyphs/48/medium-logo.png"/></a>
+  <a href="mailto:alvincnataputra@gmail.com" target="blank"><img align="center" src="https://img.icons8.com/color/48/gmail-new.png" width="48" height="48"/></a>
+  <a href="https://linkedin.com/in/alvincnataputra" target="blank"><img align="center" src="https://img.icons8.com/fluency/48/linkedin.png" width="48" height="48"/></a>
+  <a href="https://www.instagram.com/apeirodonut" target="blank"><img align="center" src="https://img.icons8.com/fluency/48/instagram-new.png" width="48" height="48"/></a>
+  <a href="https://apricitea.medium.com/" target="blank"><img align="center" src="https://img.icons8.com/ios-glyphs/48/medium-logo.png" width="48" height="48"/></a>
 </p>
 
 <h3 align="left">
@@ -27,15 +27,15 @@
 
 Languages
 <p align="left">
-  <img src="https://icons8.com/icon/13441/python">
-  <img src="https://icons8.com/icon/108784/javascript">
-  <img src="https://icons8.com/icon/CLvQeiwFpit4/r-project">
+  <img src="https://img.icons8.com/color/48/python--v1.png" width="48" height="48">
+  <img src="https://img.icons8.com/color/48/javascript--v1.png" width="48" height="48">
+  <img src="https://img.icons8.com/fluency/48/r-project.png" width="48" height="48">
 </p>
 
 Databases
 <p align="left">
-  <img src="https://icons8.com/icon/JRnxU7ZWP4mi/postgre-sql-a-free-and-open-source-relational-database-management-system">
-  <img src="https://icons8.com/icon/w0gLt4XNjxKm/mysql-logo">
+  <img src="https://img.icons8.com/color/48/postgreesql.png" width="48" height="48">
+  <img src="https://img.icons8.com/material-outlined/48/mysql-logo.png" width="48" height="48">
 </p>
 
 Tools
