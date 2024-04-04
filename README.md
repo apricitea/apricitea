@@ -3,7 +3,7 @@
   An adventurer who freely wanders the world. <br>
 </h2>
 
-More about me:
+**More about me:**
 - Currently a Data Scientist at Asta Protek Jiarsi (IT Company)
 - Latest Project I completed: Identifying Tweets containing Suicidal Ideation using LSTM and Fasttext Word Embedding
 - More than 2 years of experience as an Analyst in AIESEC
@@ -15,10 +15,10 @@ More about me:
 </h3>
 
 <p align="left">
-  <a href="mailto:alvincnataputra@gmail.com" target="blank"><img align="center" src="https://icons8.com/icon/P7UIlhbpWzZm/gmail" width="32" height="32"/></a>
-  <a href="https://linkedin.com/in/alvincnataputra" target="blank"><img align="center" src="https://icons8.com/icon/xuvGCOXi8Wyg/linkedin" width="32" height="32"/></a>
-  <a href="https://www.instagram.com/apeirodonut" target="blank"><img align="center" src="https://icons8.com/icon/Xy10Jcu1L2Su/instagram" width="32" height="32"/></a>
-  <a href="https://apricitea.medium.com/" target="blank"><img align="center" src="https://icons8.com/icon/BzFWSIqh6bCr/medium" width="32" height="32"/></a>
+  <a href="mailto:alvincnataputra@gmail.com" target="blank"><img align="center" src="https://img.icons8.com/color/48/gmail-new.png"/></a>
+  <a href="https://linkedin.com/in/alvincnataputra" target="blank"><img align="center" src="https://img.icons8.com/fluency/48/linkedin.png"/></a>
+  <a href="https://www.instagram.com/apeirodonut" target="blank"><img align="center" src="https://img.icons8.com/fluency/48/instagram-new.png"/></a>
+  <a href="https://apricitea.medium.com/" target="blank"><img align="center" src="https://img.icons8.com/ios-glyphs/48/medium-logo.png"/></a>
 </p>
 
 <h3 align="left">
