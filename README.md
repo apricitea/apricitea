@@ -1,33 +1,49 @@
 <h2 align="center">
   Hello, I'm Alvin!
-  An adventurer who freely  wanders the street. <br>
+  An adventurer who freely wanders the world. <br>
 </h2>
- 
+
 More about me:
-- Fresh Graduate of Statistics and Data Science at Institut Pertanian Bogor (also known as IPB University)
-- Undergarduate Thesis: Detecting Suicidal Ideation of Tweets using LSTM and Fasttext Word Embedding
-- More than 2 years of experience as an Analyst in AIESEC, largest youth-led leadership organization
-- Less than 1 years of experience working professionally as a Data Scientist
+- Currently a Data Scientist at Asta Protek Jiarsi (IT Company)
+- Latest Project I completed: Identifying Tweets containing Suicidal Ideation using LSTM and Fasttext Word Embedding
+- More than 2 years of experience as an Analyst in AIESEC
+- 1 years of experience working professionally as a Data Scientist
+- Aim to become a Full Stack Data in the Future (Have the skills for a Data Engineer, Data Analyst, and Data Scientist)
 
-🔨 **Tools I currently use**
+<h3 align="left">
+  Connect with me:
+</h3>
+
 <p align="left">
-  <img src="https://img.icons8.com/external-soft-fill-juicy-fish/60/000000/external-sql-coding-and-development-soft-fill-soft-fill-juicy-fish.png" width="64" height="64"/>
-  <img src="https://img.icons8.com/color/48/000000/python--v1.png" width="64" height="64"/>
-  <img src="https://img.icons8.com/external-becris-flat-becris/64/000000/external-r-data-science-becris-flat-becris.png" width="64" height="64"/>
-  <img src="https://img.icons8.com/color/48/000000/microsoft-excel-2019--v1.png" width="64" height="64"/>
+  <a href="mailto:alvincnataputra@gmail.com" target="blank"><img align="center" src="https://icons8.com/icon/P7UIlhbpWzZm/gmail" width="32" height="32"/></a>
+  <a href="https://linkedin.com/in/alvincnataputra" target="blank"><img align="center" src="https://icons8.com/icon/xuvGCOXi8Wyg/linkedin" width="32" height="32"/></a>
+  <a href="https://www.instagram.com/apeirodonut" target="blank"><img align="center" src="https://icons8.com/icon/Xy10Jcu1L2Su/instagram" width="32" height="32"/></a>
+  <a href="https://apricitea.medium.com/" target="blank"><img align="center" src="https://icons8.com/icon/BzFWSIqh6bCr/medium" width="32" height="32"/></a>
 </p>
 
-🔗 **Connect with me**
+<h3 align="left">
+  Programming Language and Tools:
+</h3>
+
+Languages
 <p align="left">
-  <a href="https://twitter.com/apeirodonut" target="blank"><img align="center" src=src="https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-twitter-social-media-justicon-lineal-color-justicon.png"/></a>
-  <a href="https://linkedin.com/in/alvincnataputra" target="blank"><img align="center" src="https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-linkedin-social-media-justicon-lineal-color-justicon.png"/></a>
-  <a href="https://instagram.com/apricitealvin" target="blank"><img align="center" src="https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-instagram-social-media-justicon-lineal-color-justicon.png"/></a>
-  <a href="https://discordapp.com/users/Lucius%20Artorius%20Castus#7028/" target="blank"><img align="center" src="https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-discord-social-media-justicon-lineal-color-justicon.png"/></a>
-  <a href="https://line.me/ti/p/~apeirodox" target="blank"><img align="center" src="https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-line-social-media-justicon-lineal-color-justicon.png"/></a>
+  <img src="https://icons8.com/icon/13441/python">
+  <img src="https://icons8.com/icon/108784/javascript">
+  <img src="https://icons8.com/icon/CLvQeiwFpit4/r-project">
 </p>
 
-Other Data Science Related Accounts:
-- [Medium](https://medium.com/@apricitea)
-- [Kaggle](https://www.kaggle.com/apricitea)
-- [HackerRank](https://www.hackerrank.com/apeirodoxalvin)
-- [RPubs](https://rpubs.com/apricitea)
+Databases
+<p align="left">
+  <img src="https://icons8.com/icon/JRnxU7ZWP4mi/postgre-sql-a-free-and-open-source-relational-database-management-system">
+  <img src="https://icons8.com/icon/w0gLt4XNjxKm/mysql-logo">
+</p>
+
+Tools
+<p align="left">
+  <img src="https://icons8.com/icon/17842/linux">
+  <img src="https://icons8.com/icon/cdYUlRaag9G9/docker">
+  <img src="https://icons8.com/icon/20906/git">
+  <img src="https://icons8.com/icon/106567/github">
+  <img src="https://icons8.com/icon/9OGIyU8hrxW5/visual-studio-code-2019">
+  <img src="https://icons8.com/icon/9pAKclTpHTMC/streamlit">
+</p>
