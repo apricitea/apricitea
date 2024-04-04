@@ -5,7 +5,7 @@
 
 **More about me:**
 - Currently a Data Scientist at Asta Protek Jiarsi (IT Company)
-- Latest project I completed: <a href="[Identifying Tweets containing Suicidal Ideation using LSTM and Fasttext Word Embedding](https://github.com/apricitea/text-suicide-ideation-detection)"> 
+- Latest project I completed: [Identifying Tweets containing Suicidal Ideation using LSTM and Fasttext Word Embedding](https://github.com/apricitea/text-suicide-ideation-detection) 
 - 1 year of experience working professionally as a Data Scientist
 - More than 2 years of experience as an Analyst in AIESEC
 - Aiming to become a Full Stack Data (Mastering the skills of a Data Analyst, Data Engineer, and Data Scientist)
