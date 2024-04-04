@@ -46,3 +46,13 @@ Tools
   <img src="https://img.icons8.com/material-rounded/48/github.png" width="48" height="48" alt="github">
   <img src="https://img.icons8.com/color/48/visual-studio-code-2019.png" width="48" height="48" alt="visual-studio-code">
 </p>
+
+Python Libraries
+<p align="left">
+  - Data Wrangling: NumPy, Pandas
+  - Data Scrapping: Beautiful Soup, Selenium
+  - Plot: Matplotlib, Seaborn, Plotly
+  - Machine Learning Framework: Scikit Learn, Tensorflow, Keras, PyTorch
+  - NLP: BERT, FastText, NLTK, Hunspell, Sastrawi 
+  - ML Model Improvements: Imblean, Category Encoder, SHAP, Joblib, Pickle
+</p>
