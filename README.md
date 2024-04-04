@@ -44,15 +44,15 @@ Tools
   <img src="https://img.icons8.com/fluency/48/docker.png" width="48" height="48" alt="docker">
   <img src="https://img.icons8.com/color/48/git.png" width="48" height="48" alt="git">
   <img src="https://img.icons8.com/material-rounded/48/github.png" width="48" height="48" alt="github">
+  <img src="https://github.com/apricitea/apricitea/assets/70255413/8f1fdc99-dfd0-409f-93f4-6457bd1a43a4" width="48" height="48" alt="poetry-package-manager">
   <img src="https://img.icons8.com/color/48/visual-studio-code-2019.png" width="48" height="48" alt="visual-studio-code">
 </p>
 
 Python Libraries
 <p align="left">
+  - Data Collection: Psycopg2, SQL Alchemy, Beautiful Soup, Selenium <br>
   - Data Wrangling: NumPy, Pandas <br>
-  - Data Scrapping: Beautiful Soup, Selenium <br>
-  - Plot: Matplotlib, Seaborn, Plotly <br>
-  - Machine Learning Framework: Scikit Learn, Tensorflow, Keras, PyTorch <br>
+  - Data Visualization: Matplotlib, Seaborn, Plotly <br>
+  - Machine Learning Development: Scikit Learn, Tensorflow, Keras, PyTorch, SHAP, Imblean, Category Encoder, Joblib, Pickle <br>
   - NLP: BERT, FastText, NLTK, Hunspell, Sastrawi <br>
-  - ML Model Improvements: Imblean, Category Encoder, SHAP, Joblib, Pickle <br>
 </p>
