@@ -4,7 +4,7 @@
 </h2>
 
 **More about me:**
-- Currently a Data Scientist at Asta Protek Jiarsi (IT Company)
+- My last professional role was a Data Scientist at Asta Protek Jiarsi (IT Company)
 - Latest personal project I completed: [Identifying Tweets containing Suicidal Ideation using LSTM and Fasttext Word Embedding](https://github.com/apricitea/text-suicide-ideation-detection) 
 - 1 year of experience working professionally as a Data Scientist
 - More than 2 years of experience as an Analyst in AIESEC
