@@ -4,7 +4,7 @@
 </h2>
 
 **More about me:**
-- My last professional role was a Data Scientist at Asta Protek Jiarsi (IT Company)
+- I'm currently working as a Data Scientist in XL Axiata at the Customer Value & Experience Management (CVM) Team, part of the XSTAR Development Program Batch 2.
 - Latest personal project I completed: [Identifying Tweets containing Suicidal Ideation using LSTM and Fasttext Word Embedding](https://github.com/apricitea/text-suicide-ideation-detection) 
 - 1 year of experience working professionally as a Data Scientist
 - More than 2 years of experience as an Analyst in AIESEC
