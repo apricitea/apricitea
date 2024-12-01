@@ -4,11 +4,10 @@
 </h2>
 
 **More about me:**
-- I'm currently working as a Data Scientist in XL Axiata at the Customer Value & Experience Management (CVM) Team, part of the XSTAR Development Program Batch 2.
-- Latest personal project I completed: [Identifying Tweets containing Suicidal Ideation using LSTM and Fasttext Word Embedding](https://github.com/apricitea/text-suicide-ideation-detection) 
-- 1 year of experience working professionally as a Data Scientist
+- Currently part of XStar Development Program at XL in the Data Science and Analytics Department within Customer Value & Experience Management (CVM) Group
+- More than 1 year of experience working professionally as a Data Scientist
 - More than 2 years of experience as an Analyst in AIESEC
-- Aiming to become a Full Stack Data (Mastering the skills of a Data Analyst, Data Engineer, and Data Scientist)
+- Aspiring to be both a Data Analyst, Data Engineer, and Data Scientist at the same time
 
 <h3 align="left">
   Connect with me:
@@ -17,7 +16,7 @@
 <p align="left">
   <a href="mailto:alvincnataputra@gmail.com" target="blank"><img align="center" src="https://img.icons8.com/color/48/gmail-new.png" width="48" height="48"/></a>
   <a href="https://linkedin.com/in/alvincnataputra" target="blank"><img align="center" src="https://img.icons8.com/fluency/48/linkedin.png" width="48" height="48"/></a>
-  <a href="https://www.instagram.com/apeirodonut" target="blank"><img align="center" src="https://img.icons8.com/fluency/48/instagram-new.png" width="48" height="48"/></a>
+  <a href="https://www.instagram.com/alchutra" target="blank"><img align="center" src="https://img.icons8.com/fluency/48/instagram-new.png" width="48" height="48"/></a>
   <a href="https://apricitea.medium.com/" target="blank"><img align="center" src="https://img.icons8.com/ios-glyphs/48/medium-logo.png" width="48" height="48"/></a>
 </p>
 
