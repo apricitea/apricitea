@@ -53,9 +53,11 @@ ML systems engineering · LLM agents and orchestration · Applied forecasting an
 
 ### Stack
 
-Python · JavaScript · PostgreSQL · MySQL · DuckDB  
-scikit-learn · LightGBM · XGBoost · SHAP · BERT · statsmodels  
-LangChain · LangGraph · FastAPI · Docker · Redis
+**Data & cloud platforms** BigQuery · Snowflake · Databricks · AWS Bedrock · Tencent WeData  
+**Languages** Python · JavaScript  
+**Databases** PostgreSQL · MySQL · DuckDB  
+**ML/DS** scikit-learn · LightGBM · XGBoost · CatBoost · SHAP · BERT · statsmodels · PySpark  
+**Tools** LangChain · LangGraph · FastAPI · Docker · Redis · GitLab CI
 
 ---
 
