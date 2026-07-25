@@ -1,57 +1,34 @@
-<h2 align="center">
-  Hello, I'm Alvin!
-  An adventurer who freely wanders the world. <br>
-</h2>
+<h2 align="center">Hi, I'm Alvin.</h2>
 
-**More about me:**
-- Currently part of XStar Development Program at XL in the Data Science and Analytics Department within Customer Value & Experience Management (CVM) Group
-- More than 1 year of experience working professionally as a Data Scientist
-- More than 2 years of experience as an Analyst in AIESEC
-- Aspiring to be both a Data Analyst, Data Engineer, and Data Scientist at the same time
-
-<h3 align="left">
-  Connect with me:
-</h3>
-
-<p align="left">
-  <a href="mailto:alvincnataputra@gmail.com" target="blank"><img align="center" src="https://img.icons8.com/color/48/gmail-new.png" width="48" height="48"/></a>
-  <a href="https://linkedin.com/in/alvincnataputra" target="blank"><img align="center" src="https://img.icons8.com/fluency/48/linkedin.png" width="48" height="48"/></a>
-  <a href="https://www.instagram.com/alchutra" target="blank"><img align="center" src="https://img.icons8.com/fluency/48/instagram-new.png" width="48" height="48"/></a>
-  <a href="https://apricitea.medium.com/" target="blank"><img align="center" src="https://img.icons8.com/ios-glyphs/48/medium-logo.png" width="48" height="48"/></a>
+<p align="center">
+Data Scientist / ML Engineer at XLSmart, working on data engineering and analysis for Customer Value & Experience Management. Building ML projects on the side.
 </p>
 
-<h3 align="left">
-  Programming Language and Tools:
-</h3>
-
-Languages
 <p align="left">
-  <img src="https://img.icons8.com/color/48/python--v1.png" width="48" height="48" alt="python">
-  <img src="https://img.icons8.com/color/48/javascript--v1.png" width="48" height="48" alt="javascript">
-  <img src="https://img.icons8.com/fluency/48/r-project.png" width="48" height="48" alt="r">
+  <a href="mailto:alvincnataputra@gmail.com" target="blank"><img align="center" src="https://img.icons8.com/color/48/gmail-new.png" width="40" height="40"/></a>
+  <a href="https://linkedin.com/in/alvincnataputra" target="blank"><img align="center" src="https://img.icons8.com/fluency/48/linkedin.png" width="40" height="40"/></a>
+  <a href="https://apricitea.medium.com/" target="blank"><img align="center" src="https://img.icons8.com/ios-glyphs/48/medium-logo.png" width="40" height="40"/></a>
+  <a href="https://www.instagram.com/alchutra" target="blank"><img align="center" src="https://img.icons8.com/fluency/48/instagram-new.png" width="40" height="40"/></a>
 </p>
 
-Databases
-<p align="left">
-  <img src="https://img.icons8.com/color/48/postgreesql.png" width="48" height="48" alt="postgresql">
-  <img src="https://img.icons8.com/material-outlined/48/mysql-logo.png" width="48" height="48" alt="mysql">
-</p>
+### Featured projects
 
-Tools
-<p align="left">
-  <img src="https://img.icons8.com/color/48/linux--v1.png" width="48" height="48" alt="linux">
-  <img src="https://img.icons8.com/fluency/48/docker.png" width="48" height="48" alt="docker">
-  <img src="https://img.icons8.com/color/48/git.png" width="48" height="48" alt="git">
-  <img src="https://img.icons8.com/material-rounded/48/github.png" width="48" height="48" alt="github">
-  <img src="https://github.com/apricitea/apricitea/assets/70255413/8f1fdc99-dfd0-409f-93f4-6457bd1a43a4" width="48" height="48" alt="poetry-package-manager">
-  <img src="https://img.icons8.com/color/48/visual-studio-code-2019.png" width="48" height="48" alt="visual-studio-code">
-</p>
+**[Autonomous Agent Orchestrator System](https://github.com/apricitea/orchestrator-system)** — multi-agent orchestration for end-to-end software development: task decomposition, parallel agent execution, self-healing retries, automated PR workflow.
 
-Python Libraries
-<p align="left">
-  - Data Collection: Psycopg2, SQL Alchemy, Beautiful Soup, Selenium <br>
-  - Data Wrangling: NumPy, Pandas <br>
-  - Data Visualization: Matplotlib, Seaborn, Plotly <br>
-  - Machine Learning Development: Scikit Learn, Tensorflow, Keras, PyTorch, SHAP, Imblearn, Category Encoder, Joblib, Pickle <br>
-  - NLP: BERT, FastText, NLTK, Hunspell, Sastrawi <br>
-</p>
+**[Project Aurum](https://github.com/apricitea/project-aurum)** — quantitative trading system for the Indonesian Stock Exchange: ensemble ML signal generation, FastAPI backend, real-time risk management.
+
+### Currently building / learning
+
+- ML side projects, applied NLP and forecasting
+- Preparing a Master's scholarship application (Europe)
+
+### Stack
+
+**Languages** Python · JavaScript · R
+**Databases** PostgreSQL · MySQL
+**ML/DS** Scikit-learn, PyTorch, TensorFlow/Keras, SHAP, BERT/FastText/NLTK
+**Tools** Docker · Git · uv · VS Code
+
+### Writing
+
+Posts on [Medium](https://apricitea.medium.com/) — data science and ML notes.
