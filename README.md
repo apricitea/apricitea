@@ -34,12 +34,14 @@ Interested in reliable ML systems and agentic AI: how models behave under distri
 - Quiz-based recommendation engine: archetype matching → budget filter → must-have feature conditions → cascading fallback
 - Stack: Next.js 15, TypeScript, Tailwind, Supabase (PostgreSQL), Node.js
 
-**Daily Insight Agent** *(production, internal)* — AI-powered automated reporting pipeline at XLSmart
+**[project-helios](https://github.com/apricitea/project-helios)** — telco CVM analytics & ML lab, built on public and synthetic data only
 
-- Multi-campaign architecture: each report type is independently configured (data source, prompts, targets, recipients)
-- Section-level LLM caching (SHA-256 hash invalidation) via Snowflake — avoids redundant inference when underlying data hasn't changed
-- AWS Bedrock integration; delivers HTML reports via email to business stakeholders
-- Stack: Python, AWS Bedrock, Snowflake, FastAPI
+- Idempotent DuckDB warehouse pipeline with a data-quality gate that aborts on critical failures before touching downstream tables
+- Two independently-calibrated risk models (churn, late payment) instead of one shared multiclass model — avoids the miscalibration that comes from conflating distinct risk types; churn AUC 0.823, late-payment AUC 0.628 on real data
+- Forward-looking label construction with a leakage check enforced by test, not just eyeballed
+- LLM-generated report narrative with explicit graceful degradation (missing key, API error, refusal, bad JSON all fall back safely)
+- Documentation-first repo structure (architecture doc, table registry, runbook, agent dispatch doc) designed for AI-assisted development
+- Stack: Python, DuckDB, scikit-learn, Claude API, GitHub Actions
 
 ---
 
@@ -51,9 +53,9 @@ ML systems engineering · LLM agents and orchestration · Applied forecasting an
 
 ### Stack
 
-Python · JavaScript · PostgreSQL · MySQL · Snowflake  
+Python · JavaScript · PostgreSQL · MySQL · DuckDB  
 scikit-learn · LightGBM · XGBoost · SHAP · BERT · statsmodels  
-LangChain · LangGraph · FastAPI · Docker · AWS Bedrock · Redis
+LangChain · LangGraph · FastAPI · Docker · Redis
 
 ---
 
