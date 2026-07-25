@@ -34,7 +34,7 @@ Interested in reliable ML systems and agentic AI: how models behave under distri
 - Quiz-based recommendation engine: archetype matching → budget filter → must-have feature conditions → cascading fallback
 - Stack: Next.js 15, TypeScript, Tailwind, Supabase (PostgreSQL), Node.js
 
-**[project-helios](https://github.com/apricitea/project-helios)** — telco CVM analytics & ML lab, built on public and synthetic data only
+**[project-helios](https://github.com/apricitea/project-helios)** — telco CVM analytics & ML lab, built on the IBM Telco Customer Churn dataset (Kaggle) and synthetic usage data at ~1M-row scale
 
 - Idempotent DuckDB warehouse pipeline with a data-quality gate that aborts on critical failures before touching downstream tables
 - Two independently-calibrated risk models (churn, late payment) instead of one shared multiclass model — avoids the miscalibration that comes from conflating distinct risk types; churn AUC 0.823, late-payment AUC 0.628 on real data
