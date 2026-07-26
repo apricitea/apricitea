@@ -34,6 +34,13 @@ Interested in reliable ML systems and agentic AI: how models behave under distri
 - Quiz-based recommendation engine: archetype matching → budget filter → must-have feature conditions → cascading fallback
 - Stack: Next.js 15, TypeScript, Tailwind, Supabase (PostgreSQL), Node.js
 
+**[MLBB Draft](https://github.com/apricitea/mlbb-draft)** — Mobile Legends: Bang Bang draft assistant
+
+- Hero recommendations scored across counter-matchups (40%), team synergy (35%), and meta strength (25%)
+- Role gap detection — filters candidates by unfilled team roles before scoring
+- Hero data fetched from MLBB API and cached per rank tier; seed fallback included
+- Stack: Next.js 15, TypeScript, Tailwind
+
 **Daily Insight Agent** *(production, internal)* — AI-powered automated reporting pipeline at XLSmart
 
 - Multi-campaign architecture: each report type is independently configured (data source, prompts, targets, recipients)
