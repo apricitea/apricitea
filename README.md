@@ -50,6 +50,16 @@ Interested in reliable ML systems and agentic AI: how models behave under distri
 
 ---
 
+### Research
+
+**[Ensemble ML for Signal Generation in Indonesian Equity Markets](https://github.com/apricitea/aurum-paper)** — Preprint, 2026
+
+- Walk-forward study on the IDX: LightGBM + XGBoost ensemble with embargo-safe CV and SHAP explainability
+- MetaLabeler for signal confidence filtering; backtested on 2020–2024 LQ45 data
+- Sharpe 2.70 · 195% return · 44% win rate · -17% max drawdown · 509 trades (2025 OOS)
+
+---
+
 ### Focus areas
 
 ML systems engineering · LLM agents and orchestration · Applied forecasting and signal generation · AI for financial markets
