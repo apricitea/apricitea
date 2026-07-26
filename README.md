@@ -48,8 +48,6 @@ Interested in reliable ML systems and agentic AI: how models behave under distri
 - Role gap detection — filters candidates by unfilled team roles before scoring
 - Stack: Next.js 15, TypeScript, Tailwind
 
-**Daily Insight Agent** *(production, internal)* — AI-powered automated reporting pipeline at XLSmart
-
 ---
 
 ### Focus areas
