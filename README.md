@@ -18,7 +18,7 @@ Interested in reliable ML systems and agentic AI: how models behave under distri
 - FastAPI backend, React + TypeScript frontend, real-time Telegram alerts, PostgreSQL + Redis
 - Stack: Python, LightGBM, XGBoost, scikit-learn, statsmodels, LangGraph, FastAPI, React
 
-**Autonomous Agent Orchestrator** *(private — available on request)* — self-hosted autonomous coding agent running on a schedule
+**[Autonomous Agent Orchestrator](https://github.com/apricitea/orchestrator-system)** — self-hosted autonomous coding agent running on a schedule
 
 - Priority queue with RAG-based context retrieval (Qdrant hybrid dense + sparse) — each task is enriched with relevant knowledge before execution
 - LLM-as-judge scoring of outputs; failure memory stores past errors and retrieves them to avoid repeating mistakes
