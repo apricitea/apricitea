@@ -34,19 +34,21 @@ Interested in reliable ML systems and agentic AI: how models behave under distri
 - Quiz-based recommendation engine: archetype matching → budget filter → must-have feature conditions → cascading fallback
 - Stack: Next.js 15, TypeScript, Tailwind, Supabase (PostgreSQL), Node.js
 
+**[project-helios](https://github.com/apricitea/project-helios)** — telco CVM analytics & ML lab, built on the IBM Telco Customer Churn dataset and synthetic usage data at ~1M-row scale
+
+- Idempotent DuckDB warehouse pipeline with a data-quality gate that aborts on critical failures before touching downstream tables
+- Two independently-calibrated risk models (churn, late payment) — avoids miscalibration from conflating distinct risk types; churn AUC 0.823, late-payment AUC 0.628
+- Forward-looking label construction with a leakage check enforced by test
+- LLM-generated report narrative with explicit graceful degradation (missing key, API error, bad JSON all fall back safely)
+- Stack: Python, DuckDB, scikit-learn, Claude API, GitHub Actions
+
 **[MLBB Draft](https://github.com/apricitea/mlbb-draft)** — Mobile Legends: Bang Bang draft assistant
 
 - Hero recommendations scored across counter-matchups (40%), team synergy (35%), and meta strength (25%)
 - Role gap detection — filters candidates by unfilled team roles before scoring
-- Hero data fetched from MLBB API and cached per rank tier; seed fallback included
 - Stack: Next.js 15, TypeScript, Tailwind
 
 **Daily Insight Agent** *(production, internal)* — AI-powered automated reporting pipeline at XLSmart
-
-- Multi-campaign architecture: each report type is independently configured (data source, prompts, targets, recipients)
-- Section-level LLM caching (SHA-256 hash invalidation) via Snowflake — avoids redundant inference when underlying data hasn't changed
-- AWS Bedrock integration; delivers HTML reports via email to business stakeholders
-- Stack: Python, AWS Bedrock, Snowflake, FastAPI
 
 ---
 
@@ -58,9 +60,11 @@ ML systems engineering · LLM agents and orchestration · Applied forecasting an
 
 ### Stack
 
-Python · JavaScript · PostgreSQL · MySQL · Snowflake  
-scikit-learn · LightGBM · XGBoost · SHAP · BERT · statsmodels  
-LangChain · LangGraph · FastAPI · Docker · AWS Bedrock · Redis
+**Data & cloud platforms** BigQuery · Snowflake · Databricks · AWS Bedrock · Tencent WeData  
+**Languages** Python · JavaScript  
+**Databases** PostgreSQL · MySQL · DuckDB  
+**ML/DS** scikit-learn · LightGBM · XGBoost · CatBoost · SHAP · BERT · statsmodels · PySpark  
+**Tools** LangChain · LangGraph · FastAPI · Docker · Redis · GitLab CI
 
 ---
 
