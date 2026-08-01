@@ -67,6 +67,12 @@ Interested in reliable ML systems and agentic AI: how models behave under distri
 - Playwright-based Twitter scraper as a secondary text source
 - Stack: Python, google-play-scraper, Playwright, Ollama
 
+**[turning-point-analysis](https://github.com/apricitea/turning-point-analysis)** — bull/bear market phase dating for IDX stocks
+
+- Censored local-extrema algorithm (Pagan-Sossounov style) — no arbitrary fixed lookback window, phases must clear minimum duration and amplitude thresholds
+- Correctly isolates the 2020 COVID crash as a distinct bear phase on BBRI, unsupervised
+- Stack: Python, pandas, scipy, matplotlib
+
 ---
 
 ### Research
