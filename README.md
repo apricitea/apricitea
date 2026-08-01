@@ -73,6 +73,13 @@ Interested in reliable ML systems and agentic AI: how models behave under distri
 - Correctly isolates the 2020 COVID crash as a distinct bear phase on BBRI, unsupervised
 - Stack: Python, pandas, scipy, matplotlib
 
+**[text-suicide-ideation-detection](https://github.com/apricitea/text-suicide-ideation-detection)** — Indonesian-language text classification, undergraduate thesis + transformer follow-up
+
+- Original thesis: FastText embeddings + LSTM, F1 0.79 on the positive class
+- Added a fine-tuned IndoBERT comparison on the identical train/val split: F1 0.90 — contextual embeddings resolve sarcasm and negation that static vectors miss
+- Deployed on HuggingFace; full write-up on Medium
+- Stack: Python, TensorFlow/Keras, PyTorch, Transformers, FastText, IndoBERT
+
 ---
 
 ### Research
