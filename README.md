@@ -61,6 +61,12 @@ Interested in reliable ML systems and agentic AI: how models behave under distri
 - Distinguishes correlation from causation — flags which adoption pushes are worth doing vs. which need product fixes first
 - Stack: Python, XGBoost, SHAP, scikit-learn, Streamlit
 
+**[brimo-sentiment](https://github.com/apricitea/brimo-sentiment)** — sentiment analysis on public BRImo Play Store reviews
+
+- Local LLM (Ollama, llama3) extracts topic, sentiment, and explanation per review — no per-request API cost at corpus scale
+- Playwright-based Twitter scraper as a secondary text source
+- Stack: Python, google-play-scraper, Playwright, Ollama
+
 ---
 
 ### Research
