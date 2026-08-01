@@ -48,6 +48,13 @@ Interested in reliable ML systems and agentic AI: how models behave under distri
 - Role gap detection — filters candidates by unfilled team roles before scoring
 - Stack: Next.js 15, TypeScript, Tailwind
 
+**[speech-event](https://github.com/apricitea/speech-event)** — event study on BBRI stock reaction to CEO-speech news
+
+- Market-model regression (BBRI return ~ IHSG return) flags abnormal-return days, joined against scraped news by publish date
+- Local LLM (Ollama, llama3) scores article sentiment, topic, and summary — no API dependency
+- Streamlit dashboard for interactive price, article, event-study, and sentiment views
+- Stack: Python, statsmodels, yfinance, Streamlit, PostgreSQL, Ollama
+
 ---
 
 ### Research
