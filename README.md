@@ -55,6 +55,12 @@ Interested in reliable ML systems and agentic AI: how models behave under distri
 - Streamlit dashboard for interactive price, article, event-study, and sentiment views
 - Stack: Python, statsmodels, yfinance, Streamlit, PostgreSQL, Ollama
 
+**[churn-project](https://github.com/apricitea/churn-project)** — telco churn prediction with a causal-inference layer
+
+- XGBoost churn classifier with SHAP explainability, plus IPTW propensity-score estimation of the causal effect of product adoption on churn, revenue, and CLTV
+- Distinguishes correlation from causation — flags which adoption pushes are worth doing vs. which need product fixes first
+- Stack: Python, XGBoost, SHAP, scikit-learn, Streamlit
+
 ---
 
 ### Research
