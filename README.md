@@ -10,11 +10,17 @@ Interested in reliable ML systems and agentic AI: how models behave under distri
 
 ### Research
 
-**[Ensemble ML for Signal Generation in Indonesian Equity Markets](https://github.com/apricitea/aurum-paper)** — methods write-up, working draft, not submitted
+**[Ensemble ML for Signal Generation in Indonesian Equity Markets](https://github.com/apricitea/aurum-paper)** — working draft, not submitted; reports a negative result
 
-- Walk-forward study on the IDX: LightGBM + XGBoost ensemble with embargo-safe cross-validation, ATR-scaled triple-barrier labeling, and a MetaLabeler that scales position size by signal confidence
-- **Status: evaluation incomplete, and the draft says so.** The committed backtest artifact covers 16 tickers with mean return −2.01% and mean Sharpe −0.04, against out-of-sample fold accuracy of 0.27–0.33 while training accuracy was 1.0. That is not a reportable result. An earlier headline figure (195.6% return / 2.70 Sharpe / 509 trades) had no linked run artifact in the checkout and is withdrawn.
-- Next: purge- and embargo-corrected folds, a buy-and-hold benchmark under identical costs, archived run manifests, and reporting whatever the corrected numbers turn out to be
+- Walk-forward study on the IDX: LightGBM + XGBoost ensemble with purged and embargoed cross-validation, ATR-scaled triple-barrier labeling, average-uniqueness sample weights, and a meta-labeler that scales position size by signal confidence
+- **Result: the model does not beat buy-and-hold.** Equal-weight over 16 IDX large caps, 2025 out-of-sample, net of IDX costs: signal model +0.12% (Sharpe 0.05) with the meta-labeler filter, +7.62% (0.88) without it, +4.73% (1.38) on technical features only — against +14.17% (0.74) for buy-and-hold and +20.71% (1.12) for the IHSG
+- Walk-forward accuracy inside the training period is 0.341–0.361 against a majority-class baseline of 0.532 on three-class labels; the model is worse than always predicting the most frequent label
+- The earlier 195.6% / 2.70 Sharpe claim is withdrawn. Four evaluation defects account for it: the final model was trained on rows inside the test window, early stopping used the fold's own test set, the scaler was fitted on the whole series, and the 5-day calendar embargo was shorter than the 10-bar label horizon with no purge
+- Code, run manifests (data SHA-256s), per-fold metrics, trade ledgers and figures: [`project-aurum/research/`](https://github.com/apricitea/project-aurum/tree/main/research)
+
+![2025 out-of-sample: signal model vs buy-and-hold vs IHSG](https://raw.githubusercontent.com/apricitea/project-aurum/main/research/out/20260928T102521Z-f552679/fig_equity_curve.png)
+
+![Walk-forward accuracy against the majority-class baseline, per ticker](https://raw.githubusercontent.com/apricitea/project-aurum/main/research/out/20260928T102521Z-f552679/fig_fold_accuracy.png)
 
 **[Turning-Point Analysis](https://github.com/apricitea/turning-point-analysis)** — bull/bear market phase dating for IDX stocks
 
@@ -33,9 +39,9 @@ Interested in reliable ML systems and agentic AI: how models behave under distri
 
 **[Project Aurum](https://github.com/apricitea/project-aurum)** — quantitative trading system for the Indonesian Stock Exchange (IDX), 4-person team
 
-- Ensemble signal model: LightGBM + XGBoost with walk-forward cross-validation and embargo to prevent lookahead bias; SHAP-based explainability on every signal
+- Ensemble signal model: LightGBM + XGBoost with purged and embargoed walk-forward cross-validation; SHAP-based explainability on every signal
 - FastAPI backend, React + TypeScript frontend, real-time Telegram alerts, PostgreSQL + Redis
-- See the Research section above for current evaluation status — the pipeline is the contribution; the performance claim is not yet supported
+- A committed, reproducible re-evaluation lives in [`research/`](https://github.com/apricitea/project-aurum/tree/main/research): it fixes four leakage defects in the original pipeline and finds that the model does not beat buy-and-hold. Details in the Research section above
 - Stack: Python, LightGBM, XGBoost, scikit-learn, statsmodels, LangGraph, FastAPI, React
 
 **[Autonomous Agent Orchestrator](https://github.com/apricitea/orchestrator-system)** — self-hosted autonomous coding agent running on a schedule
