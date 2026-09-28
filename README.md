@@ -116,7 +116,7 @@ Contributing idle compute and data from a personal homelab server:
 
 **Volunteer computing (BOINC)** — 247,311 credits across [Einstein@Home](https://einsteinathome.org/) (gravitational-wave and pulsar signal analysis), [MilkyWay@Home](https://milkyway.cs.rpi.edu/) (galaxy structure modelling), and [World Community Grid](https://www.worldcommunitygrid.org/) (cancer, COVID, and clean-energy research).
 
-**Indonesian NLP** — a weekly pipeline that assembles a Bahasa Indonesia text corpus from Wikipedia and Indonesian news sources: 32,651 records, ~2.5M tokens, exported as JSONL and mirrored to [HuggingFace](https://huggingface.co/datasets/apricitea/bahasa-indonesia-corpus). Release is currently gated on source and licence review — the corpus is not properly licensable until each record's provenance is resolved, so it is documented here as work in progress rather than as a ready dataset.
+**Indonesian NLP** — a weekly pipeline collecting Bahasa Indonesia text (Indonesian Wikipedia extracts plus Indonesian news sites). The public release is deliberately restricted to records that carry full attribution, so every published record is traceable to the exact source revision: currently 552 Wikipedia extracts (~39k tokens) released under [CC BY-SA 4.0 on HuggingFace](https://huggingface.co/datasets/apricitea/bahasa-indonesia-corpus), growing each week. Scraped news text and records collected before provenance was recorded are excluded from the release rather than published without a licence — 2,221 news-derived and ~30,000 unattributed records stay local.
 
 **Privacy infrastructure** — a [Tor Snowflake](https://snowflake.torproject.org/) proxy supporting censorship circumvention.
 
