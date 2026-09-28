@@ -4,18 +4,38 @@ Data Scientist / ML Engineer at XLSmart — customer value & experience manageme
 
 Interested in reliable ML systems and agentic AI: how models behave under distribution shift, how agents stay grounded when operating autonomously over long horizons, and what it takes to deploy these systems responsibly.
 
-[Email](mailto:alvincnataputra@gmail.com) · [LinkedIn](https://linkedin.com/in/alvincnataputra)
+[Portfolio](https://apricitea.github.io) · [Email](mailto:alvincnataputra@gmail.com) · [LinkedIn](https://linkedin.com/in/alvincnataputra) · [HuggingFace](https://huggingface.co/apricitea) · [Medium](https://medium.com/@apricitea)
+
+---
+
+### Research
+
+**[Ensemble ML for Signal Generation in Indonesian Equity Markets](https://github.com/apricitea/aurum-paper)** — methods write-up, working draft, not submitted
+
+- Walk-forward study on the IDX: LightGBM + XGBoost ensemble with embargo-safe cross-validation, ATR-scaled triple-barrier labeling, and a MetaLabeler that scales position size by signal confidence
+- **Status: evaluation incomplete, and the draft says so.** The committed backtest artifact covers 16 tickers with mean return −2.01% and mean Sharpe −0.04, against out-of-sample fold accuracy of 0.27–0.33 while training accuracy was 1.0. That is not a reportable result. An earlier headline figure (195.6% return / 2.70 Sharpe / 509 trades) had no linked run artifact in the checkout and is withdrawn.
+- Next: purge- and embargo-corrected folds, a buy-and-hold benchmark under identical costs, archived run manifests, and reporting whatever the corrected numbers turn out to be
+
+**[Turning-Point Analysis](https://github.com/apricitea/turning-point-analysis)** — bull/bear market phase dating for IDX stocks
+
+- Censored local-extrema algorithm in the style of Pagan & Sossounov (2003) — no arbitrary fixed lookback window; phases must clear minimum duration and amplitude thresholds
+- Isolates the 2020 COVID crash as a distinct bear phase on BBRI, unsupervised; properties enforced by a test suite
+
+**[Indonesian suicide-ideation text classification](https://github.com/apricitea/text-suicide-ideation-detection)** — undergraduate thesis + transformer follow-up
+
+- FastText + LSTM (thesis) against a fine-tuned IndoBERT on the identical train/val split: positive-class F1 0.79 → 0.90
+- Class-imbalance treatment (class weighting, ADASYN) *reduced* F1 in the thesis arm — reported rather than dropped
+- [Deployed on HuggingFace](https://huggingface.co/spaces/apricitea/suicide-detection) · [write-up on Medium](https://medium.com/@apricitea)
 
 ---
 
 ### Projects
 
-**[Project Aurum](https://github.com/apricitea/project-aurum)** — quantitative trading system for the Indonesian Stock Exchange (IDX)
+**[Project Aurum](https://github.com/apricitea/project-aurum)** — quantitative trading system for the Indonesian Stock Exchange (IDX), 4-person team
 
-- Ensemble signal model: LightGBM + XGBoost with walk-forward cross-validation and embargo to prevent lookahead bias
-- SHAP-based feature explainability; signals ranked by confidence
-- Backtested on 2025 IDX data: Sharpe 2.70 · 195% return · 44% win rate · -17% max drawdown · 509 trades
+- Ensemble signal model: LightGBM + XGBoost with walk-forward cross-validation and embargo to prevent lookahead bias; SHAP-based explainability on every signal
 - FastAPI backend, React + TypeScript frontend, real-time Telegram alerts, PostgreSQL + Redis
+- See the Research section above for current evaluation status — the pipeline is the contribution; the performance claim is not yet supported
 - Stack: Python, LightGBM, XGBoost, scikit-learn, statsmodels, LangGraph, FastAPI, React
 
 **[Autonomous Agent Orchestrator](https://github.com/apricitea/orchestrator-system)** — self-hosted autonomous coding agent running on a schedule
@@ -25,14 +45,6 @@ Interested in reliable ML systems and agentic AI: how models behave under distri
 - Reversibility classification before executing destructive operations; immutable policy governance
 - Automatic branch + PR workflow for team repos; direct commit for solo repos
 - Stack: Python, Claude API, Qdrant, Redis, PostgreSQL, systemd
-
-**[LapScout](https://lapscout.mahirdev.my.id/)** — Indonesian laptop recommendation platform
-
-- 800+ models scraped from Tokopedia and other Indonesian retailers via Puppeteer-Stealth + ScrapingBee fallback
-- Three-layer medallion pipeline (Bronze → Silver → Gold): raw scrape → normalized specs → 80-column fact table with market percentiles and SOTA scores
-- AI chat advisor (Maki) using GLM-4.5 with function calling — natural language queries translate to live database lookups
-- Quiz-based recommendation engine: archetype matching → budget filter → must-have feature conditions → cascading fallback
-- Stack: Next.js 15, TypeScript, Tailwind, Supabase (PostgreSQL), Node.js
 
 **[project-helios](https://github.com/apricitea/project-helios)** — telco CVM analytics & ML lab, built on the IBM Telco Customer Churn dataset and synthetic usage data at ~1M-row scale
 
@@ -46,7 +58,7 @@ Interested in reliable ML systems and agentic AI: how models behave under distri
 
 - Hero recommendations scored across counter-matchups (40%), team synergy (35%), and meta strength (25%)
 - Role gap detection — filters candidates by unfilled team roles before scoring
-- Stack: Next.js 15, TypeScript, Tailwind
+- Stack: Next.js, TypeScript, Tailwind
 
 **[speech-event](https://github.com/apricitea/speech-event)** — event study on BBRI stock reaction to CEO-speech news
 
@@ -67,34 +79,18 @@ Interested in reliable ML systems and agentic AI: how models behave under distri
 - Playwright-based Twitter scraper as a secondary text source
 - Stack: Python, google-play-scraper, Playwright, Ollama
 
-**[turning-point-analysis](https://github.com/apricitea/turning-point-analysis)** — bull/bear market phase dating for IDX stocks
+**LapScout** — Indonesian laptop recommendation platform (private repo, team project)
 
-- Censored local-extrema algorithm (Pagan-Sossounov style) — no arbitrary fixed lookback window, phases must clear minimum duration and amplitude thresholds
-- Correctly isolates the 2020 COVID crash as a distinct bear phase on BBRI, unsupervised
-- Stack: Python, pandas, scipy, matplotlib
-
-**[text-suicide-ideation-detection](https://github.com/apricitea/text-suicide-ideation-detection)** — Indonesian-language text classification, undergraduate thesis + transformer follow-up
-
-- Original thesis: FastText embeddings + LSTM, F1 0.79 on the positive class
-- Added a fine-tuned IndoBERT comparison on the identical train/val split: F1 0.90 — contextual embeddings resolve sarcasm and negation that static vectors miss
-- Deployed on HuggingFace; full write-up on Medium
-- Stack: Python, TensorFlow/Keras, PyTorch, Transformers, FastText, IndoBERT
-
----
-
-### Research
-
-**[Ensemble ML for Signal Generation in Indonesian Equity Markets](https://github.com/apricitea/aurum-paper)** — Preprint, 2026
-
-- Walk-forward study on the IDX: LightGBM + XGBoost ensemble with embargo-safe CV and SHAP explainability
-- MetaLabeler for signal confidence filtering; backtested on 2020–2024 LQ45 data
-- Sharpe 2.70 · 195% return · 44% win rate · -17% max drawdown · 509 trades (2025 OOS)
+- 800+ models scraped from Indonesian retailers via Puppeteer-Stealth + ScrapingBee fallback
+- Three-layer medallion pipeline (Bronze → Silver → Gold): raw scrape → normalized specs → fact table with market percentiles and SOTA scores
+- AI chat advisor with function calling — natural language queries translate to live database lookups
+- Stack: Next.js, TypeScript, Tailwind, PostgreSQL, Node.js
 
 ---
 
 ### Focus areas
 
-ML systems engineering · LLM agents and orchestration · Applied forecasting and signal generation · AI for financial markets
+ML systems engineering · LLM agents and orchestration · Applied forecasting and signal generation · Validity and leakage control in time-series ML
 
 ---
 
@@ -108,18 +104,12 @@ ML systems engineering · LLM agents and orchestration · Applied forecasting an
 
 ---
 
-### Open science & community
+### Open science & homelab
 
-Contributing compute and data to the broader research and open-internet community from a personal homelab server:
+Contributing idle compute and services from a personal homelab server:
 
-**Volunteer computing (BOINC)** — 223,000+ credits across:
-- [Einstein@Home](https://einsteinathome.org/) — gravitational wave and pulsar signal analysis (LIGO/Arecibo data)
-- [MilkyWay@Home](https://milkyway.cs.rpi.edu/) — Milky Way galaxy structure modeling
-- [World Community Grid](https://www.worldcommunitygrid.org/) — cancer, COVID, and clean energy research
+**Volunteer computing (BOINC)** — [Einstein@Home](https://einsteinathome.org/) (gravitational-wave and pulsar signal analysis), [MilkyWay@Home](https://milkyway.cs.rpi.edu/) (galaxy structure modelling), and [World Community Grid](https://www.worldcommunitygrid.org/) (cancer, COVID, and clean-energy research).
 
-**Privacy infrastructure** — running a Tor relay and [Tor Snowflake](https://snowflake.torproject.org/) proxy to support censorship-circumvention for users in restricted regions.
-
-**Indonesian NLP** — building and maintaining a Bahasa Indonesia token dataset pipeline, contributing to the underrepresented Indonesian language in open NLP resources.
+**Privacy infrastructure** — a Tor relay and [Tor Snowflake](https://snowflake.torproject.org/) proxy supporting censorship circumvention.
 
 ---
-
