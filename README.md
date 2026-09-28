@@ -112,10 +112,12 @@ ML systems engineering · LLM agents and orchestration · Applied forecasting an
 
 ### Open science & homelab
 
-Contributing idle compute and services from a personal homelab server:
+Contributing idle compute and data from a personal homelab server:
 
-**Volunteer computing (BOINC)** — [Einstein@Home](https://einsteinathome.org/) (gravitational-wave and pulsar signal analysis), [MilkyWay@Home](https://milkyway.cs.rpi.edu/) (galaxy structure modelling), and [World Community Grid](https://www.worldcommunitygrid.org/) (cancer, COVID, and clean-energy research).
+**Volunteer computing (BOINC)** — 247,311 credits across [Einstein@Home](https://einsteinathome.org/) (gravitational-wave and pulsar signal analysis), [MilkyWay@Home](https://milkyway.cs.rpi.edu/) (galaxy structure modelling), and [World Community Grid](https://www.worldcommunitygrid.org/) (cancer, COVID, and clean-energy research).
 
-**Privacy infrastructure** — a Tor relay and [Tor Snowflake](https://snowflake.torproject.org/) proxy supporting censorship circumvention.
+**Indonesian NLP** — a weekly pipeline that assembles a Bahasa Indonesia text corpus from Wikipedia and Indonesian news sources: 32,651 records, ~2.5M tokens, exported as JSONL and mirrored to [HuggingFace](https://huggingface.co/datasets/apricitea/bahasa-indonesia-corpus). Release is currently gated on source and licence review — the corpus is not properly licensable until each record's provenance is resolved, so it is documented here as work in progress rather than as a ready dataset.
+
+**Privacy infrastructure** — a [Tor Snowflake](https://snowflake.torproject.org/) proxy supporting censorship circumvention.
 
 ---
