@@ -4,7 +4,7 @@ Data Scientist / ML Engineer at XLSmart — customer value & experience manageme
 
 Interested in reliable ML systems and agentic AI: how models behave under distribution shift, how agents stay grounded when operating autonomously over long horizons, and what it takes to deploy these systems responsibly.
 
-[Portfolio](https://apricitea.github.io) · [Email](mailto:alvincnataputra@gmail.com) · [LinkedIn](https://linkedin.com/in/alvincnataputra) · [HuggingFace](https://huggingface.co/apricitea) · [Medium](https://medium.com/@apricitea)
+[Portfolio](https://apricitea.github.io) · [CV](https://apricitea.github.io/cv.pdf) · [Email](mailto:alvincnataputra@gmail.com) · [LinkedIn](https://linkedin.com/in/alvincnataputra) · [HuggingFace](https://huggingface.co/apricitea) · [Medium](https://medium.com/@apricitea)
 
 ---
 
