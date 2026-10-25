@@ -14,7 +14,7 @@ Interested in reliable ML systems and agentic AI: how models behave under distri
 
 - Walk-forward study on the IDX: LightGBM + XGBoost ensemble with purged and embargoed cross-validation, ATR-scaled triple-barrier labeling, average-uniqueness sample weights, and a meta-labeler that scales position size by signal confidence
 - **Result: the model does not beat buy-and-hold.** Equal-weight over 16 IDX large caps, 2025 out-of-sample, net of IDX costs: signal model +0.12% (Sharpe 0.05) with the meta-labeler filter, +7.62% (0.88) without it, +4.73% (1.38) on technical features only — against +14.17% (0.74) for buy-and-hold and +20.71% (1.12) for the IHSG
-- Walk-forward accuracy inside the training period is 0.341–0.361 against a majority-class baseline of 0.532 on three-class labels; the model is worse than always predicting the most frequent label
+- Walk-forward accuracy is below the majority-class baseline on **0 of 16 tickers** (sign-test p = 3e-5). Per-ticker return vs buy-and-hold is 8/16 (p = 1) — not distinguishable from chance. Median time in market is 3% of test days, so raw-return "wins" are sitting in cash on falling names, not timing skill
 - The earlier 195.6% / 2.70 Sharpe claim is withdrawn. Four evaluation defects account for it: the final model was trained on rows inside the test window, early stopping used the fold's own test set, the scaler was fitted on the whole series, and the 5-day calendar embargo was shorter than the 10-bar label horizon with no purge
 - Code, run manifests (data SHA-256s), per-fold metrics, trade ledgers and figures: [`project-aurum/research/`](https://github.com/apricitea/project-aurum/tree/main/research)
 
@@ -27,11 +27,15 @@ Interested in reliable ML systems and agentic AI: how models behave under distri
 - Censored local-extrema algorithm in the style of Pagan & Sossounov (2003) — no arbitrary fixed lookback window; phases must clear minimum duration and amplitude thresholds
 - Isolates the 2020 COVID crash as a distinct bear phase on BBRI, unsupervised; properties enforced by a test suite
 
-**[Indonesian suicide-ideation text classification](https://github.com/apricitea/text-suicide-ideation-detection)** — undergraduate thesis + transformer follow-up
+**[What a 0.91 F1 actually measures](https://github.com/apricitea/text-suicide-ideation-detection)** — leakage audit of the undergraduate thesis corpus
 
-- FastText + LSTM (thesis) against a fine-tuned IndoBERT on the identical train/val split: positive-class F1 0.79 → 0.90
-- Class-imbalance treatment (class weighting, ADASYN) *reduced* F1 in the thesis arm — reported rather than dropped
-- [Deployed on HuggingFace](https://huggingface.co/spaces/apricitea/suicide-detection) · [write-up on Medium](https://medium.com/@apricitea)
+- The 10,128-post Indonesian suicide-ideation corpus is a scraped X sample. A random 80/20 split without deduplication put **739 of 2,026 validation posts (36.5%)** in both halves
+- On the 1,287 genuinely unseen rows, fine-tuned IndoBERT falls from F1 **0.910 → 0.877** [0.845, 0.904]. A character n-gram logistic regression reaches 0.787; the remaining transformer advantage is **+0.090** [+0.049, +0.131], McNemar p = 6.3e-4
+- The probabilities are close to honest (ECE 0.046). Catching 90% of ideation-positive posts means reviewing **21.8% of the corpus at 83.6% precision**
+- The FastText + LSTM thesis arm (reported F1 0.79) cannot be recomputed: tokenizer and vectors were never saved. Recorded, not hidden
+- [Paper (PDF)](https://github.com/apricitea/text-suicide-ideation-detection/blob/main/paper/main.pdf) · [evaluation code](https://github.com/apricitea/text-suicide-ideation-detection/tree/main/eval) · [demo](https://huggingface.co/spaces/apricitea/suicide-detection)
+
+![Positive-class F1 by protocol](https://raw.githubusercontent.com/apricitea/text-suicide-ideation-detection/main/eval/out/20261025-full/fig_scores.png)
 
 ---
 
@@ -59,12 +63,6 @@ Interested in reliable ML systems and agentic AI: how models behave under distri
 - Forward-looking label construction with a leakage check enforced by test
 - LLM-generated report narrative with explicit graceful degradation (missing key, API error, bad JSON all fall back safely)
 - Stack: Python, DuckDB, scikit-learn, Claude API, GitHub Actions
-
-**[MLBB Draft](https://github.com/apricitea/mlbb-draft)** — Mobile Legends: Bang Bang draft assistant
-
-- Hero recommendations scored across counter-matchups (40%), team synergy (35%), and meta strength (25%)
-- Role gap detection — filters candidates by unfilled team roles before scoring
-- Stack: Next.js, TypeScript, Tailwind
 
 **[speech-event](https://github.com/apricitea/speech-event)** — event study on BBRI stock reaction to CEO-speech news
 
