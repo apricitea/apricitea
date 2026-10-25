@@ -33,7 +33,7 @@ Interested in reliable ML systems and agentic AI: how models behave under distri
 - On the 1,287 genuinely unseen rows, fine-tuned IndoBERT falls from F1 **0.910 → 0.877** [0.845, 0.904]. A character n-gram logistic regression reaches 0.787; the remaining transformer advantage is **+0.090** [+0.049, +0.131], McNemar p = 6.3e-4
 - The probabilities are close to honest (ECE 0.046). Catching 90% of ideation-positive posts means reviewing **21.8% of the corpus at 83.6% precision**
 - The FastText + LSTM thesis arm (reported F1 0.79) cannot be recomputed: tokenizer and vectors were never saved. Recorded, not hidden
-- [Paper (PDF)](https://github.com/apricitea/text-suicide-ideation-detection/blob/main/paper/main.pdf) · [evaluation code](https://github.com/apricitea/text-suicide-ideation-detection/tree/main/eval) · [demo](https://huggingface.co/spaces/apricitea/suicide-detection)
+- [Paper (PDF)](https://github.com/apricitea/text-suicide-ideation-detection/blob/main/paper/main.pdf) · [evaluation code](https://github.com/apricitea/text-suicide-ideation-detection/tree/main/eval) · [serving demo](https://github.com/apricitea/text-suicide-ideation-detection/tree/main/demo) (container built and smoke-tested in CI; no public URL)
 
 ![Positive-class F1 by protocol](https://raw.githubusercontent.com/apricitea/text-suicide-ideation-detection/main/eval/out/20261025-full/fig_scores.png)
 
