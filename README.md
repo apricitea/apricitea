@@ -64,12 +64,12 @@ Interested in reliable ML systems and agentic AI: how models behave under distri
 - LLM-generated report narrative with explicit graceful degradation (missing key, API error, bad JSON all fall back safely)
 - Stack: Python, DuckDB, scikit-learn, Claude API, GitHub Actions
 
-**[speech-event](https://github.com/apricitea/speech-event)** — event study on BBRI stock reaction to CEO-speech news
+**[speech-event](https://github.com/apricitea/speech-event)** — do BRI CEO-speech news days move the stock?
 
-- Market-model regression (BBRI return ~ IHSG return) flags abnormal-return days, joined against scraped news by publish date
-- Local LLM (Ollama, llama3) scores article sentiment, topic, and summary — no API dependency
-- Streamlit dashboard for interactive price, article, event-study, and sentiment views
-- Stack: Python, statsmodels, yfinance, Streamlit, PostgreSQL, Ollama
+- The original pipeline picked days by abnormal return and then looked for news on them. The merged table it read had 32 news rows and **zero** labelled abnormal, so its implied "match" was structurally empty
+- Rebuilt with news as the event and abnormal return as the outcome: 26 events, market model on [-130,-11], CAR over [-1,+1]. **Patell Z −2.84 (p = 0.0045), BMP t −3.24 (p = 0.0034)**; 1 of 26 survives Benjamini–Hochberg
+- Mean CAR −1.23%, and the pre-publication component (−0.39% at t−1) argues against a clean "repriced on publication" story — reported rather than smoothed over
+- 3 tests, committed runs with reports and figures; original notebooks kept so the correction is legible against what they did
 
 **[churn-project](https://github.com/apricitea/churn-project)** — telco churn prediction with a causal-inference layer
 
