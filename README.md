@@ -30,7 +30,8 @@ Interested in reliable ML systems and agentic AI: how models behave under distri
 **[What a 0.91 F1 actually measures](https://github.com/apricitea/text-suicide-ideation-detection)** — leakage audit of the undergraduate thesis corpus
 
 - The 10,128-post Indonesian suicide-ideation corpus is a scraped X sample. A random 80/20 split without deduplication put **739 of 2,026 validation posts (36.5%)** in both halves
-- On the 1,287 genuinely unseen rows, fine-tuned IndoBERT falls from F1 **0.910 → 0.877** [0.845, 0.904]. A character n-gram logistic regression reaches 0.787; the remaining transformer advantage is **+0.090** [+0.049, +0.131], McNemar p = 6.3e-4
+- On the 1,287 genuinely unseen rows, fine-tuned IndoBERT falls from F1 **0.910 → 0.877** [0.845, 0.904]. A character n-gram logistic regression reaches 0.787; the remaining advantage is **+0.090** [+0.049, +0.131], McNemar p = 6.3e-4
+- Then closed the loop: deduplicated the corpus, re-split, and **retrained**, so the weights never see the twins either. F1 **0.849** [0.821, 0.877] on 1,586 unseen posts against 0.785 [0.749, 0.819] for the strongest baseline — **+0.064** (McNemar p = 0.015). The published 0.910 decomposes into 3.3 points of duplicate overlap plus 2.8 further points the twins were worth to the weights
 - The probabilities are close to honest (ECE 0.046). Catching 90% of ideation-positive posts means reviewing **21.8% of the corpus at 83.6% precision**
 - The FastText + LSTM thesis arm (reported F1 0.79) cannot be recomputed: tokenizer and vectors were never saved. Recorded, not hidden
 - [Paper (PDF)](https://github.com/apricitea/text-suicide-ideation-detection/blob/main/paper/main.pdf) · [evaluation code](https://github.com/apricitea/text-suicide-ideation-detection/tree/main/eval) · [serving demo](https://github.com/apricitea/text-suicide-ideation-detection/tree/main/demo) (container built and smoke-tested in CI; no public URL)
